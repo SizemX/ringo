@@ -1,0 +1,102 @@
+.hero {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2) -13.19%,
+      rgba(0, 0, 0, 0.85) 94.01%
+    ),
+    url(../assets/images/hero__backround.png);
+  background-repeat: no-repeat;
+  background-position: 67%;
+  background-size: 920px;
+  background-position: 65%;
+}
+.hero__button {
+  padding: 22px 72px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.hero__button:hover {
+  transform: scale(1.03);
+  border-radius: 20px;
+  background-color: white;
+  color: #ae7b3c;
+}
+.card__number {
+  color: rgba(0, 0, 0, 0.529);
+}
+.card {
+  padding-left: 10px;
+  margin-bottom: 80px;
+}
+.img__box {
+  padding-left: 26px;
+}
+.care__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.advantage__title {
+  color: #bfc0bd;
+}
+.login__name {
+  border-bottom: white solid 1px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.project__title {
+  color: rgba(255, 255, 255, 0.457);
+  padding-bottom: 40px;
+}
+
+.document__title {
+  color: rgba(255, 255, 255, 0.457);
+}
+.login__button {
+  color: white;
+  font-weight:bolder;
+  outline: none;
+  padding: 22px 104px;
+  background-color: #ae7b3c;
+  transition: 0.3s ease-in-out;
+}
+
+.login__button:hover {
+  transform: scale(1.03);
+  box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6);
+}
+
+.cardss__number{
+  width: 50px;
+  padding: 10px 14px;
+  height: 50px;
+  border-radius: 50%;
+  border: rgba(0, 0, 0, 0.572) solid 1px;
+  color: #3D4A39;
+  font-size: 20px;
+}
+.cardss{
+  padding-bottom: 50px;
+}
+.buy__button{
+  padding: 22px 86px;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+  margin-top: 40px;
+}
+.buy__button:hover{
+  box-shadow: 0 15px 10px 0 rgba(0,0,0,0.2);
+  transform: scale(1.03);
+  border-radius: 20px;
+}
+.aroow{
+transform: rotate(180deg);
+}
+.footer__btn{
+  padding: 22px 56px;
+  transition: 0.3s ease-in-out;
+
+}
+.footer__btn:hover{
+transform: scale(1.03)
+}
